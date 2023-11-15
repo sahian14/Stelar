@@ -1,0 +1,95 @@
+/* Establece la imagen de fondo para el elemento con la clase "contenedor" */
+body {
+    background-image: url('https://ภาพวิว.com/wp-content/uploads/2020/03/JBD-73-02.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño del elemento contenedor */
+    background-repeat: no-repeat;
+}
+
+/* Establece estilos para la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+table th {
+    width: 10em;
+}
+
+tr:nth-of-type(1) > th {
+    font-family: Agbalumo;
+    background-color: rgb(201, 174, 226);
+}
+
+td[colspan] {
+    text-align: center;
+    background-color: rgb(210, 222, 245);
+    font-weight: bold;
+}
+
+.hora {
+    background-color: rgb(166, 186, 221);
+}
+
+/* Establece estilos para las celdas de la tabla */
+td {
+    border: 1px solid #f7e1e1;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+/* Establece estilos específicos para las celdas con clase */
+.pensamiento {
+    background-color: rgb(255, 252, 248);
+}
+
+.mate {
+    background-color: rgb(245, 240, 243);
+}
+
+.español {
+    background-color: rgb(245, 247, 252);
+}
+
+.fisica {
+    background-color: rgb(241, 250, 247);
+}
+
+.ingles {
+    background-color: rgb(242, 245, 228);
+}
+
+.diseño {
+    background-color: rgb(237, 248, 239);
+}
+
+h1{
+    font-family: cursive;
+    background-image: linear-gradient(to right, #8b2a9c, #f1f1fa, #fbf5fc); /* Cambia los colores según tus preferencias */
+    -webkit-background-clip: text; /* Para navegadores basados en Webkit (como Chrome y Safari) */
+    background-clip: text;
+    color: transparent;
+}
+
+.descanso{
+    background-color: #e15df8;
+}
+
+th[colspan="5"] {
+    background-color: pink; /* Cambia "pink" por el color rosado que desees */
+}
+
+td a {
+    display: block; /* Convierte el enlace en un bloque para que el borde se aplique alrededor del enlace completo */
+    border: 1px solid #000; /* Agrega un borde alrededor del enlace */
+    border-radius: 7px; /* Aplica un radio de 10px para redondear los bordes */
+    text-align: center; /* Centra el texto dentro del enlace */
+    padding: 5px; /* Agrega un espacio interno alrededor del enlace para que se vea mejor */
+    text-decoration: none; /* Elimina la decoración de subrayado predeterminada del enlace */
+}
+
+td a:hover {
+    background-color: #f5eae8; /* Cambia el color de fondo al pasar el mouse sobre el enlace */
+}
+

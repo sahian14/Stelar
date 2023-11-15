@@ -1,0 +1,17 @@
+body {
+    background-image: url('https://www.todofondos.net/wp-content/uploads/1280x800-Fondo-de-acuarela-Fondo-de-pantalla-HD-14640.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño del elemento contenedor */
+    background-repeat: no-repeat;
+}
+
+h1{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-image: linear-gradient(to right, #fcfbfc, #ffffff, #fbf5fc); /* Cambia los colores según tus preferencias */
+   -webkit-background-clip: text; /* Para navegadores basados en Webkit (como Chrome y Safari) */
+   background-clip: text;
+   color: transparent;
+}
+
+.card{
+    border-radius: 10px;
+}
