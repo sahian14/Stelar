@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster Two', cursive;
+ 
+
+}
+
+body{
+    background: #ffffff;
+    overflow-x: hidden;
+}
+.Funciones{
+    width: 100%;
+    
+}
+.info-funciones{
+    width: 80%;
+    margin: 100px auto;
+}
+.info-funciones h2{
+    display: flex;
+    justify-content:center;
+    font-size: 45px;
+    font-weight: normal;
+    color: #000;
+}
+
+.chat h3{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: normal;
+    background: #c8eafa;
+    border-radius: 10px;
+}
+
+.chat p{
+    font-size: 19px;
+    color: #000;
+    line-height: 35px;
+    margin: 80px 0px;
+    text-align: center;
+
+}
+.cont-material{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.cont-material h4{
+    font-size: 25px;
+}
+    /* Estilos para la tabla */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+  
+    }
+
+    /* Estilos para las celdas */
+    td {
+        border: 3px solid rgb(228, 169, 255);
+        background: rgb(246, 225, 255);
+        padding: 30px;
+        text-align: center;
+    }
+
+    /* Estilos para las imágenes */
+    .items {
+        max-width: 100%;
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+    }
